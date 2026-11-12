@@ -40,6 +40,9 @@ Fixtures use actual Bitcoin mainnet transactions at heights 170, 92240 and
 481824. The StudioNet workflows exercise legacy credit and retirement, SegWit
 credit, wrong-script and unrelated-spend rejection, and duplicate calls.
 They compare exact source bytes and re-read the ledger after every transaction.
+Both runs verified 11 finalized receipts. The legacy ledger credited and later
+retired 1,000,000,000 satoshis. The SegWit ledger credited 311,000 satoshis.
+[StudioNet receipts and contract addresses](proofs/README.md) · [Submission text](SUBMISSION.md)
 
 References: [Esplora API](https://github.com/Blockstream/esplora/blob/master/API.md) ·
 [Bitcoin block header and Merkle format](https://developer.bitcoin.org/reference/block_chain.html) ·

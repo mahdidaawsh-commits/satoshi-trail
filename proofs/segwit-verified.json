@@ -1,0 +1,118 @@
+{
+  "scenario": "segwit",
+  "contract": "0x2947EBa2D891B42B48d5c594821Ed592bBeD297b",
+  "deployment": "0x11d1b33354c6314903bec74569774f0d82a12261a7b4bce47af49c039b77e46e",
+  "source_sha256": "8df0426f2404b780cfa599e4900aaba6a8aa2c06479a4397e9f563873e68f7a9",
+  "trace": [
+    {
+      "label": "deploy",
+      "hash": "0x11d1b33354c6314903bec74569774f0d82a12261a7b4bce47af49c039b77e46e",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xbe4a3f43cb5915000accc18a8ac1f850b1264fd9",
+      "args": {
+        "args": [
+          "a91422c17a06117b40516f9826804800003562e834c987"
+        ]
+      },
+      "error": null,
+      "state": {
+        "totals": {
+          "credits": 0,
+          "imported_sats": 0,
+          "retired_sats": 0,
+          "retirements": 0,
+          "script": "a91422c17a06117b40516f9826804800003562e834c987",
+          "unretired_sats": 0
+        },
+        "entry": {}
+      }
+    },
+    {
+      "label": "credit",
+      "hash": "0x77da76ec929bfa7c85d87614a46b15ede372fab2aa6ba3234302fa4915e60740",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "result": "MAJORITY_AGREE",
+      "agree": 3,
+      "disagree": 0,
+      "idle": 2,
+      "signer": "0xa289b119ae70339e15db6afc2f6e2e7a9d240bad",
+      "args": {
+        "method": "import_output",
+        "args": [
+          "8f907925d2ebe48765103e6845c06f1f2bb77c6adc1cc002865865eb5cfd5c1c",
+          0
+        ]
+      },
+      "error": null,
+      "state": {
+        "totals": {
+          "credits": 1,
+          "imported_sats": 311000,
+          "retired_sats": 0,
+          "retirements": 0,
+          "script": "a91422c17a06117b40516f9826804800003562e834c987",
+          "unretired_sats": 311000
+        },
+        "entry": {
+          "created": {
+            "block_hash": "0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893",
+            "height": 481824,
+            "position": 12,
+            "sats": 311000,
+            "script": "a91422c17a06117b40516f9826804800003562e834c987",
+            "txid": "8f907925d2ebe48765103e6845c06f1f2bb77c6adc1cc002865865eb5cfd5c1c",
+            "vout": 0
+          },
+          "spent": null
+        }
+      }
+    },
+    {
+      "label": "duplicate-credit",
+      "hash": "0xa419c805c939c5c3821f1f44676ef92b918d4d583d51b7a805ef2ca3c61fd2d7",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "result": "MAJORITY_AGREE",
+      "agree": 5,
+      "disagree": 0,
+      "idle": 0,
+      "signer": "0xbe4a3f43cb5915000accc18a8ac1f850b1264fd9",
+      "args": {
+        "method": "import_output",
+        "args": [
+          "8f907925d2ebe48765103e6845c06f1f2bb77c6adc1cc002865865eb5cfd5c1c",
+          0
+        ]
+      },
+      "error": "Outpoint already imported",
+      "state": {
+        "totals": {
+          "credits": 1,
+          "imported_sats": 311000,
+          "retired_sats": 0,
+          "retirements": 0,
+          "script": "a91422c17a06117b40516f9826804800003562e834c987",
+          "unretired_sats": 311000
+        },
+        "entry": {
+          "created": {
+            "block_hash": "0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893",
+            "height": 481824,
+            "position": 12,
+            "sats": 311000,
+            "script": "a91422c17a06117b40516f9826804800003562e834c987",
+            "txid": "8f907925d2ebe48765103e6845c06f1f2bb77c6adc1cc002865865eb5cfd5c1c",
+            "vout": 0
+          },
+          "spent": null
+        }
+      }
+    }
+  ]
+}

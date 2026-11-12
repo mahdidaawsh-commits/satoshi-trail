@@ -1,0 +1,65 @@
+{
+  "source_sha256": "8df0426f2404b780cfa599e4900aaba6a8aa2c06479a4397e9f563873e68f7a9",
+  "successes": 5,
+  "rejections": 6,
+  "instances": [
+    {
+      "scenario": "legacy",
+      "contract": "0x07F54a1377234e3f2EDB31aa7CFC6C2Cf3622Dc4",
+      "deployment": "0x4ee08b49ecd71ed5fcc43ebe832af00019f77b8da61e2a64949f35f0da1c893d",
+      "credit": "0x1364dc77f1f446b17714decd251611418b5e1f7c4ec1fe48da8a5f2599559dcf",
+      "retire": "0x92732c31cf1200ce571a6915e228a13cb752cf2aaec4f88bf68d4a81b45f7ad7",
+      "created": {
+        "block_hash": "00000000d1145790a8694403d4063f323d499e655c83426834d4ce2f8dd4a2ee",
+        "height": 170,
+        "position": 1,
+        "sats": 1000000000,
+        "script": "4104ae1a62fe09c5f51b13905f07f06b99a2f7159b2225f374cd378d71302fa28414e7aab37397f554a7df5f142c21c1b7303b8a0626f1baded5c72a704f7e6cd84cac",
+        "txid": "f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16",
+        "vout": 0
+      },
+      "spent": {
+        "block_hash": "0000000000077430a94a5376bf2af42d4b1aebdecedfa9e4f7e3f0465a84d891",
+        "height": 92240,
+        "position": 6,
+        "txid": "ea44e97271691990157559d0bdd9959e02790c34db6c006d779e82fa5aee708e",
+        "vin": 0
+      },
+      "totals": {
+        "credits": 1,
+        "imported_sats": 1000000000,
+        "retired_sats": 1000000000,
+        "retirements": 1,
+        "script": "4104ae1a62fe09c5f51b13905f07f06b99a2f7159b2225f374cd378d71302fa28414e7aab37397f554a7df5f142c21c1b7303b8a0626f1baded5c72a704f7e6cd84cac",
+        "unretired_sats": 0
+      },
+      "workflow": "https://github.com/mahdidaawsh-commits/satoshi-trail/actions/runs/43241760482"
+    },
+    {
+      "scenario": "segwit",
+      "contract": "0x2947EBa2D891B42B48d5c594821Ed592bBeD297b",
+      "deployment": "0x11d1b33354c6314903bec74569774f0d82a12261a7b4bce47af49c039b77e46e",
+      "credit": "0x77da76ec929bfa7c85d87614a46b15ede372fab2aa6ba3234302fa4915e60740",
+      "retire": null,
+      "created": {
+        "block_hash": "0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893",
+        "height": 481824,
+        "position": 12,
+        "sats": 311000,
+        "script": "a91422c17a06117b40516f9826804800003562e834c987",
+        "txid": "8f907925d2ebe48765103e6845c06f1f2bb77c6adc1cc002865865eb5cfd5c1c",
+        "vout": 0
+      },
+      "spent": null,
+      "totals": {
+        "credits": 1,
+        "imported_sats": 311000,
+        "retired_sats": 0,
+        "retirements": 0,
+        "script": "a91422c17a06117b40516f9826804800003562e834c987",
+        "unretired_sats": 311000
+      },
+      "workflow": "https://github.com/mahdidaawsh-commits/satoshi-trail/actions/runs/43241793867"
+    }
+  ]
+}
